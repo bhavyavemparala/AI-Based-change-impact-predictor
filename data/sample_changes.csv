@@ -1,0 +1,9 @@
+change_type,service,incident,rollback
+
+config,auth-service,yes,yes
+
+code,payment-service,no,no
+
+config,cache-service,yes,no
+
+dependency,order-service,yes,yes
